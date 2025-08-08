@@ -13,7 +13,7 @@ const options = {
 const travel = async function (req, res, next) {
     // console.log('TRAVEL CONTROLLER BEGIN');
     await fetch(tripsEndpoint, options)
-        .then((res) => res.jason())
+        .then((res) => res.json())
         .then((json) => {
             let message = null;
             if (!(json instanceof Array)) {
