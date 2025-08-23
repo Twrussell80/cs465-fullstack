@@ -26,8 +26,10 @@ Testing
 
 Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanding of methods, endpoints, and security in a full stack application.
 
-
+  An endpoint is a URL located in the server that the frontend connects to in order to access data. To test the endpoints, I used the HTTP methods GET, PUT, POST, and DELETE. GET is used to retrieve the necessary data, PUT is used for updating, POST will create new data, and DELETE will remove the data. The endpoints are tested in order to ensure that they work when correct input is utilized and also show an error when incorrect input is used.
 
 Reflection
 
 How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?
+
+  This course has helped me to learn how to create and manipulate a Single Page Application, such as developing components that can be reused, learn how to make sure APIs are structured correctly, and how to test endpoints of the application. With this understanding, I feel one step closer to succeeding in my future career.
